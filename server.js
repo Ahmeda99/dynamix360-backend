@@ -10,7 +10,6 @@ const express = require("express");
 const app = express();
 const mongoose = require("mongoose");
 const db = mongoose.connection;
-const createGame= require('./Models/createGame')
 
 
 
