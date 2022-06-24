@@ -4,7 +4,7 @@
 const express = require("express");
 const router = express.Router();
 const { Router } = require("express");
-const createGame = require("../Models/createGame")
+const createGame = require("./models/createGame")
 
 router.get("/", async (req,res) => {
   res.send('Hellllllooooooooo')
